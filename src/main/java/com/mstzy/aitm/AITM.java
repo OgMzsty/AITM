@@ -1,7 +1,7 @@
 package com.mstzy.aitm;
 
 import com.mstzy.aitm.client.init.TileRenderRegistry;
-import com.mstzy.aitm.init.AIRegistry;
+import com.mstzy.aitm.common.init.AIRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

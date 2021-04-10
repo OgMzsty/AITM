@@ -1,4 +1,4 @@
-package com.mstzy.aitm.init;
+package com.mstzy.aitm.common.init;
 
 import com.mstzy.aitm.AITM;
 import net.minecraft.block.Block;

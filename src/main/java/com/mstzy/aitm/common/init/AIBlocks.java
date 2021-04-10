@@ -1,6 +1,6 @@
-package com.mstzy.aitm.init;
+package com.mstzy.aitm.common.init;
 
-import com.mstzy.aitm.blocks.BlockTardis;
+import com.mstzy.aitm.common.blocks.BlockTardis;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

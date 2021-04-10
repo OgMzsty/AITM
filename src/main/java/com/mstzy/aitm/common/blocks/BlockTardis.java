@@ -1,6 +1,6 @@
-package com.mstzy.aitm.blocks;
+package com.mstzy.aitm.common.blocks;
 
-import com.mstzy.aitm.tile.TileTardis;
+import com.mstzy.aitm.common.tile.TileTardis;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;

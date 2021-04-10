@@ -2,7 +2,7 @@ package com.mstzy.aitm.client.render;
 
 import com.mstzy.aitm.AITM;
 import com.mstzy.aitm.client.models.ModelEleventhTardis;
-import com.mstzy.aitm.tile.TileTardis;
+import com.mstzy.aitm.common.tile.TileTardis;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 import net.minecraft.client.renderer.RenderType;
