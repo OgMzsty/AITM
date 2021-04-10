@@ -1,7 +1,7 @@
 package com.mstzy.aitm.client.init;
 
 import com.mstzy.aitm.client.render.RenderTardis;
-import com.mstzy.aitm.init.AITiles;
+import com.mstzy.aitm.common.init.AITiles;
 import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
 import net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher;
 import net.minecraft.tileentity.TileEntity;
