@@ -1,5 +1,6 @@
 package com.mstzy.aitm;
 
+import com.mstzy.aitm.client.event.ClientEventHandler;
 import com.mstzy.aitm.client.init.TileRenderRegistry;
 import com.mstzy.aitm.common.init.AIRegistry;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +26,7 @@ public class AITM {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new ClientEventHandler());
     }
 
     private void setup(final FMLCommonSetupEvent event) {
