@@ -1,6 +1,6 @@
-package com.mstzy.aitm.common.init;
+package com.mzsty.aitm.common.init;
 
-import com.mstzy.aitm.AITM;
+import com.mzsty.aitm.AITM;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntityType;
@@ -18,8 +18,6 @@ public class AIRegistry {
 
 
     public static void register() {
-
-
 
         if(!initialized) {
 

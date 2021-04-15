@@ -1,6 +1,6 @@
-    package com.mstzy.aitm.common.init;
+    package com.mzsty.aitm.common.init;
 
-import com.mstzy.aitm.common.tile.TileTardis;
+import com.mzsty.aitm.common.tile.TileTardis;
 import net.minecraft.block.Block;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;
