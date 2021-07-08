@@ -9,7 +9,6 @@ import net.minecraftforge.fml.RegistryObject;
 import java.util.function.Supplier;
 
 public class AITiles {
-
     public static final RegistryObject<TileEntityType<TileTardis>> TARDIS = addType("tardis", TileTardis::new, AIBlocks.TARDIS);
 
     public static <T extends TileEntity> RegistryObject<TileEntityType<T>> addType(String name, Supplier<T> tileEntitySupplier, RegistryObject<? extends Block> block) {

@@ -1,6 +1,6 @@
 package com.mzsty.aitm.client.init;
 
-import com.mzsty.aitm.client.render.RenderTardis;
+import com.mzsty.aitm.client.render.WhitekerRenderer;
 import com.mzsty.aitm.common.init.AITiles;
 import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
 import net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher;
@@ -15,7 +15,7 @@ public class TileRenderRegistry {
 
 
     public static void register() {
-        bindTileEntityRenderer(AITiles.TARDIS, RenderTardis::new);
+        bindTileEntityRenderer(AITiles.TARDIS, WhitekerRenderer::new);
     }
 
     public static <T extends TileEntity> void bindTileEntityRenderer(RegistryObject<TileEntityType<T>> tileEntityType, Function<? super TileEntityRendererDispatcher, ? extends TileEntityRenderer<? super T>> rendererFactory) {

@@ -13,7 +13,6 @@ public class AIBlocks {
 
     public static final RegistryObject<Block> TARDIS = register(new BlockTardis(AbstractBlock.Properties.of(Material.BARRIER).noOcclusion().dynamicShape()), "tardis", ItemGroup.TAB_BUILDING_BLOCKS);
 
-
     public static <T extends Block> RegistryObject<T> register(T block, String name, ItemGroup group) {
 
         if(group != null) {

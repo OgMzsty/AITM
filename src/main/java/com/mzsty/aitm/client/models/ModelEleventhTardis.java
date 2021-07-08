@@ -1,4 +1,4 @@
-package com.mstzy.aitm.client.models;
+package com.mzsty.aitm.client.models;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
